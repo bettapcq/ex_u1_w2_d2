@@ -117,20 +117,21 @@ let numero;
 if (num7 > num8) {
   first = num7;
   second = num8;
+} else {
   first = num8;
   second = num7;
 }
 
+
 console.log(first, second, third);
 
 if (num9 > second) {
-  //26>4
   third = second;
   numero = num9;
-  third = num9;
 }
 
-console.log(first, second, third);
+console.log(first, second, third); 
+
 if (numero > first) {
   second = first;
   first = numero;
