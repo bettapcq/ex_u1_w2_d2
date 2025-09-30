@@ -50,6 +50,12 @@ if (num5 === 8 || num5 + num6 === 8) {
   console.log('num5, o la somma di num5 + num6, è uguale a 8');
 }
 
+//CORREZIONE, UNO DEI DUE DEVE ESSEERE 8 (NON SOLO IL PRIMO) E ANCHE LA SOTTRAZIONE (NON SOLO ADDIZIONE) :
+
+if (num5 === 8 || num6 === 8 || num5 + num6 === 8 || num5 - num6 === 8 || num6 - num5 === 8) {
+  console.log('uno dei due numeri, o la somma/sottrazione dei due, è uguale a 8');
+}
+
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
@@ -86,7 +92,7 @@ let shippingPrice = 10;
 let blackFridayDiscount = (totalShoppingCart * 20) / 100;
 let totalWithDiscount = totalShoppingCart - blackFridayDiscount;
 
-if (totalShoppingCart >= 50) {
+if (totalShoppingCart >= 50) {   // CORREZIONE : > 50, NON >= 50
   console.log(
     'Complimenti, hai diritto alla psedizione gratuita! Il totale del tuo carrello, con lo sconto Black Friday è: ' +
       totalWithDiscount
@@ -163,7 +169,7 @@ if (typeof value === 'number') {
 
 const num10 = 13;
 
-if (num10 / 2 === 0) {
+if (num10 / 2 === 0) {  // CORREZIONE: con num10 % 2 === 0
   console.log('è pari');
 } else {
   console.log('è dispari');
