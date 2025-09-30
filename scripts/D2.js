@@ -93,7 +93,7 @@ if (totalShoppingCart >= 50) {
   );
 } else {
   console.log(
-    'Desolati, non hai diritto alla spedizione gratuita!  Il totale del tuo carrello, con lo sconto Black Friday è: ' +
+    'Siamo spiacenti, non hai diritto alla spedizione gratuita!  Il totale del tuo carrello, con lo sconto Black Friday è: ' +
       (totalWithDiscount + shippingPrice)
   );
 }
